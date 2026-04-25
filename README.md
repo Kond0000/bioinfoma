@@ -15,7 +15,7 @@ RNA-seq解析を独学で身につけるための学習リポジトリです。
 
 | Topic | 内容 | 具体的に解きたい問い | 状態 |
 |---|---|---|---|
-| `01_count_matrix_qc` | count matrix の読み込みと基本QC | まず、この表は何を数えていて、比較できるデータなのか | 進行中 |
+| `01_count_matrix_qc` | count matrix の読み込みと基本QC | 刺激を加えた細胞と加えていない細胞で、どの遺伝子の使われ方が変わったかを調べる準備ができているか | 進行中 |
 | `02_normalization` | 正規化と log 変換 | サンプルごとの総量の違いを除いたら、どの遺伝子が本当に高いのか | 未着手 |
 | `03_exploratory_analysis` | PCA とヒートマップ | treated と control は全体として分かれて見えるのか、外れ値はないのか | 未着手 |
 | `04_differential_expression` | 差次的発現解析 | どの遺伝子が treated で有意に変化したのか | 未着手 |
