@@ -21,11 +21,29 @@ RNA-seq解析を独学で身につけるための学習リポジトリです。
 | `05_functional_interpretation` | GO・経路解析 | 未着手 |
 | `06_portfolio` | GitHub 公開用の整理 | 未着手 |
 
+## Colab
+
+各トピックはトップREADMEから直接 Colab を開けます。
+
+| Topic | Notebook | Open in Colab |
+|---|---|---|
+| `01_count_matrix_qc` | [day1_count_matrix_qc_colab.ipynb](notebooks/day1_count_matrix_qc_colab.ipynb) | [Open](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day1_count_matrix_qc_colab.ipynb) |
+| `02_normalization` | [day2_normalization_colab.ipynb](notebooks/day2_normalization_colab.ipynb) | [Open](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day2_normalization_colab.ipynb) |
+| `03_exploratory_analysis` | [day3_exploratory_analysis_colab.ipynb](notebooks/day3_exploratory_analysis_colab.ipynb) | [Open](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day3_exploratory_analysis_colab.ipynb) |
+| `04_differential_expression` | [day4_differential_expression_colab.ipynb](notebooks/day4_differential_expression_colab.ipynb) | [Open](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day4_differential_expression_colab.ipynb) |
+| `05_functional_interpretation` | [day5_functional_interpretation_colab.ipynb](notebooks/day5_functional_interpretation_colab.ipynb) | [Open](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day5_functional_interpretation_colab.ipynb) |
+| `06_portfolio` | [day6_portfolio_colab.ipynb](notebooks/day6_portfolio_colab.ipynb) | [Open](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day6_portfolio_colab.ipynb) |
+
 ## ディレクトリ構成
 
 ```text
 notebooks/
   day1_count_matrix_qc_colab.ipynb
+  day2_normalization_colab.ipynb
+  day3_exploratory_analysis_colab.ipynb
+  day4_differential_expression_colab.ipynb
+  day5_functional_interpretation_colab.ipynb
+  day6_portfolio_colab.ipynb
 topics/
   01_count_matrix_qc/
   02_normalization/
@@ -77,5 +95,8 @@ git commit -m "Initialize RNA-seq study portfolio"
 ## 現在の成果物
 
 - [day1_count_matrix_qc_colab.ipynb](notebooks/day1_count_matrix_qc_colab.ipynb)
-- [toy_counts.csv](topics/01_count_matrix_qc/data/toy_counts.csv)
-- [day1_library_size.png](topics/01_count_matrix_qc/results/figures/day1_library_size.png)
+- [day2_normalization_colab.ipynb](notebooks/day2_normalization_colab.ipynb)
+- [day3_exploratory_analysis_colab.ipynb](notebooks/day3_exploratory_analysis_colab.ipynb)
+- [day4_differential_expression_colab.ipynb](notebooks/day4_differential_expression_colab.ipynb)
+- [day5_functional_interpretation_colab.ipynb](notebooks/day5_functional_interpretation_colab.ipynb)
+- [day6_portfolio_colab.ipynb](notebooks/day6_portfolio_colab.ipynb)
