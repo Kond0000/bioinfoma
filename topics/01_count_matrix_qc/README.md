@@ -81,12 +81,6 @@ IL6           30         25        200        220
 
 - `results/figures/day1_library_size.png`
 
-## 実行
-
-```bash
-.venv/bin/python topics/01_count_matrix_qc/scripts/day1_count_matrix_qc.py
-```
-
 Google Colab で動かす場合:
 
 - リポジトリ直下の [notebooks/day1_count_matrix_qc_colab.ipynb](../../notebooks/day1_count_matrix_qc_colab.ipynb) を開いて上から順に実行します
@@ -97,8 +91,6 @@ Google Colab で動かす場合:
 
 - `data/toy_counts.csv`
   練習用の小さな count matrix です。
-- `scripts/day1_count_matrix_qc.py`
-  count matrix を読み、ライブラリサイズを計算して棒グラフを保存します。
 - `results/figures/day1_library_size.png`
   サンプルごとの総カウント数を示す図です。
 - `../../notebooks/day1_count_matrix_qc_colab.ipynb`

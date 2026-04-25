@@ -1,13 +1,13 @@
 # Bioinformatics RNA-seq Study Portfolio
 
 RNA-seq解析を独学で身につけるための学習リポジトリです。  
-目的は、解析の流れを理解すること、Pythonで手を動かせること、GitHubで見せられる形に整理することです。
+目的は、解析の流れを理解すること、Google Colab で手を動かせること、GitHubで見せられる形に整理することです。
 
 ## このリポジトリでやっていること
 
 - RNA-seq解析をトピックごとに分けて学ぶ
 - 生物学初学者でも追えるように、解析前の生物学的な意味から説明する
-- 各トピックで「目的」「入力」「出力」「実行方法」を明確にする
+- 各トピックで「目的」「入力」「出力」「Colabでの進め方」を明確にする
 - 解析コードと図を残して、後から見返せる形にする
 
 ## 進捗
@@ -33,7 +33,6 @@ topics/
   04_differential_expression/
   05_functional_interpretation/
   06_portfolio/
-requirements.txt
 README.md
 ```
 
@@ -49,26 +48,12 @@ README.md
 ## 最初に見る場所
 
 現在の開始地点は [topics/01_count_matrix_qc/README.md](topics/01_count_matrix_qc/README.md) です。  
-まず `count matrix とは何か` を読んでからコードを実行します。
-
-実行コマンド:
-
-```bash
-.venv/bin/python topics/01_count_matrix_qc/scripts/day1_count_matrix_qc.py
-```
+まず `count matrix とは何か` を読んでから Colab ノートブックを開きます。
 
 Google Colab で試す場合:
 
 - [day1_count_matrix_qc_colab.ipynb](notebooks/day1_count_matrix_qc_colab.ipynb)
 - [Open in Colab](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day1_count_matrix_qc_colab.ipynb)
-
-## セットアップ
-
-Pythonは必ず `.venv` を使います。
-
-```bash
-.venv/bin/python -m pip install -r requirements.txt
-```
 
 ## GitHubで公開するときの見せ方
 
@@ -77,7 +62,7 @@ GitHub上では、次の順番で読めると分かりやすいです。
 1. この `README.md` で全体像を見る
 2. `topics/README.md` で学習ステップを見る
 3. 各トピックの `README.md` で目的と実行内容を見る
-4. `scripts/` と `results/` で実際のコードと図を見る
+4. `notebooks/` で実際の教材を開く
 
 ## GitHub公開の最小手順
 
@@ -91,7 +76,6 @@ git commit -m "Initialize RNA-seq study portfolio"
 
 ## 現在の成果物
 
-- [day1_count_matrix_qc.py](topics/01_count_matrix_qc/scripts/day1_count_matrix_qc.py)
+- [day1_count_matrix_qc_colab.ipynb](notebooks/day1_count_matrix_qc_colab.ipynb)
 - [toy_counts.csv](topics/01_count_matrix_qc/data/toy_counts.csv)
 - [day1_library_size.png](topics/01_count_matrix_qc/results/figures/day1_library_size.png)
-- [day1_count_matrix_qc_colab.ipynb](notebooks/day1_count_matrix_qc_colab.ipynb)
