@@ -13,14 +13,14 @@ RNA-seq解析を独学で身につけるための学習リポジトリです。
 
 ## 進捗
 
-| Topic | 内容 | 状態 |
-|---|---|---|
-| `01_count_matrix_qc` | count matrix の読み込みと基本QC | 進行中 |
-| `02_normalization` | 正規化と log 変換 | 未着手 |
-| `03_exploratory_analysis` | PCA とヒートマップ | 未着手 |
-| `04_differential_expression` | 差次的発現解析 | 未着手 |
-| `05_functional_interpretation` | GO・経路解析 | 未着手 |
-| `06_portfolio` | GitHub 公開用の整理 | 未着手 |
+| Topic | 内容 | 具体的に解きたい問い | 状態 |
+|---|---|---|---|
+| `01_count_matrix_qc` | count matrix の読み込みと基本QC | まず、この表は何を数えていて、比較できるデータなのか | 進行中 |
+| `02_normalization` | 正規化と log 変換 | サンプルごとの総量の違いを除いたら、どの遺伝子が本当に高いのか | 未着手 |
+| `03_exploratory_analysis` | PCA とヒートマップ | treated と control は全体として分かれて見えるのか、外れ値はないのか | 未着手 |
+| `04_differential_expression` | 差次的発現解析 | どの遺伝子が treated で有意に変化したのか | 未着手 |
+| `05_functional_interpretation` | GO・経路解析 | 変化した遺伝子群は、どんな生物学的変化を示しているのか | 未着手 |
+| `06_portfolio` | GitHub 公開用の整理 | この解析で何が分かったのかを他人にどう伝えるか | 未着手 |
 
 ## Colab
 
@@ -55,12 +55,13 @@ topics/
 README.md
 ```
 
-各トピックには `README.md` を置き、次の4点がすぐ分かるようにしています。
+各トピックには `README.md` を置き、次の5点がすぐ分かるようにしています。
 
 - 何を学ぶのか
 - なぜそれが必要か
-- 何を実行するのか
-- 何が出力されるのか
+- どんな具体的な研究の問いに役立つのか
+- このトピックでどんな課題を解き明かすのか
+- どの Colab を開けばよいのか
 
 トピック一覧は [topics/README.md](topics/README.md) にまとめています。
 
