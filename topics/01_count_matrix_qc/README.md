@@ -89,7 +89,8 @@ IL6           30         25        200        220
 
 Google Colab で動かす場合:
 
-- `notebooks/day1_count_matrix_qc_colab.ipynb` を開いて上から順に実行します
+- リポジトリ直下の [notebooks/day1_count_matrix_qc_colab.ipynb](../../notebooks/day1_count_matrix_qc_colab.ipynb) を開いて上から順に実行します
+- GitHub から直接開く場合は [Open in Colab](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day1_count_matrix_qc_colab.ipynb) を使います
 - このノートブックは単体で動くので、追加のデータ配置なしで試せます
 
 ## このトピックにあるファイル
@@ -100,7 +101,7 @@ Google Colab で動かす場合:
   count matrix を読み、ライブラリサイズを計算して棒グラフを保存します。
 - `results/figures/day1_library_size.png`
   サンプルごとの総カウント数を示す図です。
-- `notebooks/day1_count_matrix_qc_colab.ipynb`
+- `../../notebooks/day1_count_matrix_qc_colab.ipynb`
   Google Colab でそのまま実行できる学習用ノートブックです。
 
 ## ここで見るポイント

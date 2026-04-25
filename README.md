@@ -24,6 +24,8 @@ RNA-seq解析を独学で身につけるための学習リポジトリです。
 ## ディレクトリ構成
 
 ```text
+notebooks/
+  day1_count_matrix_qc_colab.ipynb
 topics/
   01_count_matrix_qc/
   02_normalization/
@@ -57,7 +59,8 @@ README.md
 
 Google Colab で試す場合:
 
-- [day1_count_matrix_qc_colab.ipynb](topics/01_count_matrix_qc/notebooks/day1_count_matrix_qc_colab.ipynb)
+- [day1_count_matrix_qc_colab.ipynb](notebooks/day1_count_matrix_qc_colab.ipynb)
+- [Open in Colab](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day1_count_matrix_qc_colab.ipynb)
 
 ## セットアップ
 
@@ -91,4 +94,4 @@ git commit -m "Initialize RNA-seq study portfolio"
 - [day1_count_matrix_qc.py](topics/01_count_matrix_qc/scripts/day1_count_matrix_qc.py)
 - [toy_counts.csv](topics/01_count_matrix_qc/data/toy_counts.csv)
 - [day1_library_size.png](topics/01_count_matrix_qc/results/figures/day1_library_size.png)
-- [day1_count_matrix_qc_colab.ipynb](topics/01_count_matrix_qc/notebooks/day1_count_matrix_qc_colab.ipynb)
+- [day1_count_matrix_qc_colab.ipynb](notebooks/day1_count_matrix_qc_colab.ipynb)
