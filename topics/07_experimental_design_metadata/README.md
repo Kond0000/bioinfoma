@@ -1,4 +1,4 @@
-# 02 Normalization
+# 07 Experimental Design and Metadata
 
 ## この章の位置づけ
 
@@ -6,13 +6,13 @@
 
 ## この章でまず問うこと
 
-`IL6の上昇は本当の発現差か、それとも総read数の差か`
+`刺激群と対照群の差を信頼してよい実験設計か`
 
 この問いに答えられないまま次へ進むと、表や図は作れても、何を根拠に判断しているのかが曖昧になります。
 
 ## 何のための知識か
 
-生countは発現量だけでなくサンプル全体で読まれたread数にも左右されるため。
+conditionとbatchが重なっていると、統計手法では刺激差と実験日の差を分離できないため。
 
 ## 現実ではどこで役立つか
 
@@ -20,13 +20,13 @@
 
 ## この章で使う具体例
 
-サンプルごとにlibrary sizeが異なるcount matrix
+良いmetadata表と悪いmetadata表
 
 この教材では、いきなり巨大な実データに入らず、まず小さな表で考え方を固定します。小さな例で読み方を理解してから、実データや公共データに広げます。
 
 ## Colabで手を動かして確認すること
 
-CPMとlogCPMを計算し、生countとの見え方の違いを比較する。
+condition x batch のクロス表を作り、交絡の危険を確認する。
 
 コードは単なる作業手順ではなく、各セルで「いま何を確かめているのか」が分かるようにコメントと本文を入れています。
 
@@ -36,9 +36,9 @@ Colab内で、必要になった順に説明します。用語を先に暗記す
 
 ## 読み取れるようになること
 
-正規化が「測定量の差」と「生物学的な差」を分ける処理だと説明できる。
+metadataから比較可能性、replicate、batchの危険を判断できる。
 
 ## Colab
 
-- [day2_normalization_colab.ipynb](../../notebooks/day2_normalization_colab.ipynb)
-- [Open in Colab](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day2_normalization_colab.ipynb)
+- [day7_experimental_design_metadata_colab.ipynb](../../notebooks/day7_experimental_design_metadata_colab.ipynb)
+- [Open in Colab](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day7_experimental_design_metadata_colab.ipynb)

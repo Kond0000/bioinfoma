@@ -1,4 +1,4 @@
-# 02 Normalization
+# 14 Reproducible Workflow
 
 ## この章の位置づけ
 
@@ -6,13 +6,13 @@
 
 ## この章でまず問うこと
 
-`IL6の上昇は本当の発現差か、それとも総read数の差か`
+`半年後に同じ結果を再現できる解析になっているか`
 
 この問いに答えられないまま次へ進むと、表や図は作れても、何を根拠に判断しているのかが曖昧になります。
 
 ## 何のための知識か
 
-生countは発現量だけでなくサンプル全体で読まれたread数にも左右されるため。
+入力、環境、手順、出力、解釈が対応していない解析は、検証も共有もできないため。
 
 ## 現実ではどこで役立つか
 
@@ -20,13 +20,13 @@
 
 ## この章で使う具体例
 
-サンプルごとにlibrary sizeが異なるcount matrix
+環境情報表、READMEアウトライン、再現性チェックリスト
 
 この教材では、いきなり巨大な実データに入らず、まず小さな表で考え方を固定します。小さな例で読み方を理解してから、実データや公共データに広げます。
 
 ## Colabで手を動かして確認すること
 
-CPMとlogCPMを計算し、生countとの見え方の違いを比較する。
+Pythonやpandasのバージョンを記録し、GitHub公開用READMEの要素を点検する。
 
 コードは単なる作業手順ではなく、各セルで「いま何を確かめているのか」が分かるようにコメントと本文を入れています。
 
@@ -36,9 +36,9 @@ Colab内で、必要になった順に説明します。用語を先に暗記す
 
 ## 読み取れるようになること
 
-正規化が「測定量の差」と「生物学的な差」を分ける処理だと説明できる。
+再実行可能なRNA-seqポートフォリオを設計できる。
 
 ## Colab
 
-- [day2_normalization_colab.ipynb](../../notebooks/day2_normalization_colab.ipynb)
-- [Open in Colab](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day2_normalization_colab.ipynb)
+- [day14_reproducible_workflow_colab.ipynb](../../notebooks/day14_reproducible_workflow_colab.ipynb)
+- [Open in Colab](https://colab.research.google.com/github/Kond0000/bioinfoma/blob/main/notebooks/day14_reproducible_workflow_colab.ipynb)
