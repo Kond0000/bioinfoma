@@ -1,0 +1,9 @@
+.venv/
+.cache/
+.matplotlib/
+**/.cache/
+**/.matplotlib/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
