@@ -1,6 +1,7 @@
 # Colab Notebooks
 
-Google Colab で直接開けるノートブック置き場です。
+Google Colab で直接開けるノートブック置き場です。  
+このリポジトリでは、学習本文とコード解説の中心を Colab ノートブックに置きます。README は目次と章の位置づけを示す地図で、実際の教材本体は各ノートブックです。
 
 ## Available notebooks
 
